@@ -1,0 +1,72 @@
+// Color system
+
+$purple:  #3c48d5;
+
+$primary:   $purple;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-responsive-font-sizes: true;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12;
+$grid-gutter-width:           48px;
+$grid-row-columns:            6;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                $font-size-base * 1.375;
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-md:                $font-size-base * 1.125;
+$font-size-sm:                $font-size-base * 0.875;
+
+$line-height-base:            1.5;
+
+$headings-font-family:        null;
+$headings-font-weight:        500;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+
+// Navbar
+
+$navbar-padding-y:                  $spacer * 1.5;
+$navbar-padding-x:                  $spacer * 1.5;
+
+// Alerts
+//
+// Define alert colors, border radius, and padding.
+
+$alert-padding-y:                   0.75rem;
+$alert-padding-x:                   1.5rem;
+$alert-margin-bottom:               0;
+$alert-border-radius:               0;
+$alert-link-font-weight:            $headings-font-weight;
+$alert-border-width:                0;
+
+$alert-bg-level:                    0;
+$alert-border-level:                0;
+$alert-color-level:                 0;
