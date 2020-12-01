@@ -1,0 +1,37 @@
+
+.sidebar {
+  width: 15rem;
+}
+
+.sidebar-sticky {
+  top: 0;
+  height: calc(100vh - 15rem);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.navbar {
+  display: block;
+  padding: 0;
+  margin: 2rem 0 1rem;
+}
+
+.navbar-text {
+  margin-left: 1.5rem;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.navbar-text a{
+  color: $lightgray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+@include media-breakpoint-up(md) {
+  .navbar-brand {
+    font-size: $font-size-xl;
+  }
+}

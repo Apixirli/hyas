@@ -1,4 +1,5 @@
 .content {
+  width: 75rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -18,12 +19,20 @@ h6,
   margin: 2rem 0 1rem;
 }
 
+.title {
+  color: $lightgray;
+  margin: 0 0 1rem 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-md;
   }
 
   .content {
+    width: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -46,6 +55,7 @@ h6,
 
 @include media-breakpoint-up(lg) {
   .content {
+    width: 75rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -68,4 +78,24 @@ h6,
   width: 2rem;
   height: 2rem;
   vertical-align: text-top;
+}
+
+.bg-black {
+  background: $black;
+}
+
+.bg-darkergray {
+  background: $darkergray;
+}
+
+.bg-darkgray {
+  background: $darkgray;
+}
+
+.bg-lightgray {
+  background: $lightgray;
+}
+
+.bg-accent {
+  background: $accent;
 }

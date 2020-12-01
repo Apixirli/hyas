@@ -1,21 +1,16 @@
+.header {
+  height: 15rem;
+}
+
+.brand {
+  height: 12rem;
+  width: 12rem;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }
 
 .banner .nav a {
   @extend .nav-link;
-}
-
-.navbar-text {
-  margin-left: 1rem;
-}
-
-@include media-breakpoint-up(md) {
-  .navbar-brand {
-    font-size: $font-size-xl;
-  }
-
-  .navbar-text {
-    margin-left: 1.25rem;
-  }
 }
