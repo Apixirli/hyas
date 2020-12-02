@@ -20,4 +20,4 @@ Also a ninja.
 Singapore
 
 [Image of email address]  
-[Image of phone number]
+[Image of phone number]]
