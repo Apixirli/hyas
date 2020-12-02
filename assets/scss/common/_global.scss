@@ -1,5 +1,10 @@
+body {
+  color: $lightgray;
+}
+
 .content {
-  width: 75rem;
+  width: 100vw;
+  max-width: 1000px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -20,21 +25,20 @@ h6,
 }
 
 .title {
-  color: $lightgray;
   margin: 0 0 1rem 0;
   line-height: 1rem;
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
 }
 
 @include media-breakpoint-up(md) {
   body {
-    font-size: $font-size-md;
+    font-size: $font-size-sm;
   }
 
   .content {
     width: auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
   }
 
   h1,
@@ -55,9 +59,9 @@ h6,
 
 @include media-breakpoint-up(lg) {
   .content {
-    width: 75rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    width: calc(100vw - 15rem);
+    max-width: 1000px;
+    padding: 2rem 0;
   }
 }
 

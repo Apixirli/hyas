@@ -7,6 +7,10 @@
   width: 12rem;
 }
 
+.brand:hover{
+  background: $accent;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }
