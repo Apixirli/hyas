@@ -9,4 +9,4 @@ menu: "main"
 categories: [""]
 ---
 
-{{< img src="{{ .Name | urlize }}.png" alt="{{ replace .Name "-" " " | title }}" caption="{{ replace .Name "-" " " | title }}" class="wide" >}}
+{{< img src="project_placeholder.png">}}
