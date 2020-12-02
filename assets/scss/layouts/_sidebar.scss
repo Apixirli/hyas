@@ -33,6 +33,8 @@
 .navbar-text a:hover{
   background: $accent;
   color: $darkergray;
+  line-height: 0.75rem;
+  display: inline-block;
 }
 
 @include media-breakpoint-up(md) {
