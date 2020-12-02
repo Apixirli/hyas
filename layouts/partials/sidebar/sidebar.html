@@ -1,11 +1,16 @@
 <nav class="d-none d-md-none d-lg-block bg-darkergray sidebar">
   <div class="sidebar-sticky">
     <div class="navbar">
-      {{ range .Site.Menus.main }}
+      {{ range .Site.Menus.main.Sort.ByWeight }}
         <span class="navbar-text  d-block">
           <a href="{{ .URL }}">{{- .Name -}}</a>
         </span>
       {{ end }}
+    </div>
+    <div class="navbar">
+      <span class="navbar-text  d-block">
+        <a class="text-muted" href="/about">About</a>
+      </span>
     </div>
   </div>
 </nav>
