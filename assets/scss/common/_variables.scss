@@ -5,6 +5,7 @@ $purple:  #3c48d5;
 $black: #030303;
 $darkergray: #0A0A0A;
 $darkgray: #0F0F0F;
+$mutedgray: #4D4D4D;
 $lightgray: #929292;
 $accent: #CA054D;
 
@@ -33,7 +34,7 @@ $grid-row-columns:            6;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif:      "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
