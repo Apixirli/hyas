@@ -5,9 +5,10 @@ date: 2020-12-02T19:45:22+08:00
 lastmod: 2020-12-02T19:45:22+08:00
 draft: false
 images: ["traditional-keks.png"]
+thumb: "traditional-keks_cover.png"
 menu: "main"
 weight: 30
 categories: [""]
 ---
 
-{{< img src="project_placeholder.png">}}
+{{< img src="traditional-keks_cover.png">}}
