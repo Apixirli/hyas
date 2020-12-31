@@ -3,7 +3,7 @@
   <article class="col-12">
     {{ .Content }}
     <div class="row gallery">
-    {{ range where .Site.RegularPages "Section" "projects" }}
+    {{ range (and (where .Site.RegularPages "Section" "projects") (where .Site.RegularPages "Params.featured" true)) }}
 
       <div class="col-lg-6 d-inline-block grid">
         <a href="{{.RelPermalink}}" class="mb-4 ">
