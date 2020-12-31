@@ -8,7 +8,8 @@ images: []
 thumb: "berry_cover.png"
 menu: "main"
 weight: 10
-categories: [""]
+categories: ["Short Film"]
+featured: true
 
 ---
 {{< youtube tAw1dKZyfwg >}}

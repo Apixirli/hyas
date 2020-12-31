@@ -8,7 +8,8 @@ images: ["yunnan-vr.png"]
 thumb: "yunnan-vr_cover.png"
 menu: "main"
 weight: 20
-categories: [""]
+categories: ["VR"]
+featured: true
 ---
 
 {{< img src="yunnan-vr_cover.png">}}

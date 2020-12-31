@@ -8,7 +8,8 @@ images: ["vfx-playground.png"]
 thumb: "vfx-playground_cover.png"
 menu: "main"
 weight: 100
-categories: [""]
+categories: ["VFX"]
+featured: false
 ---
 
 {{< img src="vfx-playground_cover.png">}}
