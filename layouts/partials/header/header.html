@@ -15,9 +15,23 @@
 </header>
 -->
 
-<div class="row">
-  <header class="bg-darkergray header">
-    <a href="/" class="d-block bg-black m-3 m-lg-4 brand">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-0 header">
+    <span class="brand-frame bg-darkergray m-0 p-0">
+    <a href="/" class="navbar-brand bg-black m-3 m-lg-4 p-0 brand">
     </a>
-  </header>
-</div>
+    </span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0 d-lg-none bg-darkergray pt-3 pb-3">
+        {{ range .Site.Menus.main.Sort.ByWeight }}
+          <li class="navbar-collapsed-text  d-block">
+            <a href="{{ .URL }}">{{- .Name -}}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
