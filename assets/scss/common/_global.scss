@@ -30,13 +30,26 @@ hr {
 
 .title {
   margin: 0 0 1rem 0;
-  line-height: 1rem;
-  padding-bottom: 0.5rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
   text-transform: uppercase;
 }
 
 .text-muted {
   color: $mutedgray !important;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+article p a {
+  color: $lightgray;
+  text-decoration: underline;
+}
+
+article p a:hover {
+  color: $white;
 }
 
 @include media-breakpoint-up(lg) {

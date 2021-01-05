@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="row">
   <article class="{{ if eq .Title "About" }}col-md-8 col-12{{ else }}col-12{{ end }}">
-    <h2 class="title">{{ .Title }}</h2>
+    <h2 class="title fw-bold">{{ .Title }}</h2>
     {{ .Content }}
   </article>
 </div>

@@ -1,7 +1,12 @@
 {{ define "main" }}
 <div class="row">
   <article class="col-12">
+    <h2 class="title fw-bold">{{ .Title }}</h2>
+
     {{ .Content }}
+
+    <h2 class="title fw-bold">Featured</h2>
+
     <div class="row gallery">
     {{ range (and (where .Site.RegularPages "Section" "projects") (where .Site.RegularPages "Params.featured" true)) }}
 
