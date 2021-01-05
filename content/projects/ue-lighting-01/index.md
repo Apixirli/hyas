@@ -18,6 +18,7 @@ featured: true
 
 PERSONAL  
 UE Lighting Study 01  
+UE4 / Megascans / Epic's Paragon Assets
 
 **Time**: Dusk  
 **Location**: Northern High Altitude Mountains  
