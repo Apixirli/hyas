@@ -1,10 +1,15 @@
-.header {
-  height: 15rem;
+.brand {
+  background: url('logo-gray.png');
+  background-repeat: no-repeat;
+  background-size: 3rem 3rem;
+  height: 3rem;
+  width: 3rem;
 }
 
-.brand {
-  height: 12rem;
-  width: 12rem;
+.brand:hover{
+  background: url('logo-accent.png');
+  background-repeat: no-repeat;
+  background-size: 3rem 3rem;
 }
 
 .banner .nav li {
@@ -13,4 +18,69 @@
 
 .banner .nav a {
   @extend .nav-link;
+}
+
+.brand-frame {
+  height: 5rem;
+}
+
+.navbar {
+  background: $darkergray;
+  margin: 0 !important;
+  margin-right: -0.25rem !important;
+  margin-left: -0.25rem !important;
+  margin-bottom: 2rem !important;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbar-toggler {
+  height: 5rem;
+  width: 5rem;
+}
+
+.navbar-collapsed-text {
+  margin-left: 1rem;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 5rem;
+  border-bottom: 1px solid $lightgray;
+}
+
+.navbar-collapsed-text a{
+  color: $lightgray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: $font-size-sm;
+}
+
+.navbar-collapsed-text a:hover{
+  background: $accent;
+  color: $darkergray;
+  display: inline-block;
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar {
+    background: none;
+    margin-bottom: 0 !important;
+    position: relative;
+  }
+
+  .brand-frame {
+    height: 15rem;
+  }
+
+  .brand {
+    background-size: 12rem 12rem;
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .brand:hover {
+    background-size: 12rem 12rem;
+    height: 12rem;
+    width: 12rem;
+  }
 }

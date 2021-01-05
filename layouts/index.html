@@ -1,14 +1,50 @@
 {{ define "main" }}
 <div class="row">
-  <div class="col-lg-7">
-    <h1>{{ .Title }}</h1>
-    <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-  </div>
-</div>
-{{ end }}
+  <article class="col-12">
+    <h2 class="title fw-bold">{{ .Title }}</h2>
 
-{{ define "section" }}
-<section class="section container-fluid">
-  {{- .Content -}}
-</section>
+    {{ .Content }}
+
+    <h2 class="title fw-bold">Featured</h2>
+
+    <div class="row gallery">
+    {{ range (and (where .Site.RegularPages "Section" "projects") (where .Site.RegularPages "Params.featured" true)) }}
+
+      <div class="col-lg-6 d-inline-block grid">
+        <a href="{{.RelPermalink}}" class="mb-4 ">
+
+          {{ $path :=  printf "images/%s" .Params.thumb}}
+          {{ $image := .Page.Resources.GetMatch $path -}}
+          {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
+
+          {{ $imgSrc := "" -}}
+          {{ $imgSrcSet := slice -}}
+
+          {{ $widths := $.Site.Params.landscapePhotoWidths -}}
+          {{ if gt $image.Height $image.Width -}}
+            {{ $widths = $.Site.Params.portraitPhotoWidths -}}
+          {{ end -}}
+
+          {{ range $widths -}}
+            {{ $srcUrl := (printf "%dx" . | $image.Resize).Permalink -}}
+            {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}}
+            {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
+          {{ end -}}
+          {{ $imgSrcSet = (delimit $imgSrcSet ",") -}}
+
+          <figure class="thumb_card m-0">
+            <img class="img-fluid lazyload blur-up " data-sizes="auto" src="{{ $lqip.Permalink }}" data-srcset="{{ $imgSrcSet }}" width="100%" height="{{ $image.Height }}">
+            <noscript><img class="img-fluid" sizes="100vw" srcset="{{ $imgSrcSet }}" src="{{ $image.Permalink }}" width="100%" height="{{ $image.Height }}"></noscript>
+          </figure>
+          <div class="thumb_title">
+            <span class="text">{{ .Title }}</span>
+          </div>
+
+        </a>
+      </div>
+
+    {{ end }}
+    </div>
+  </article>
+</div>
 {{ end }}

@@ -1,7 +1,7 @@
 baseurl = "/"
 disableAliases = true
 disableHugoGeneratorInject = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = [""]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true

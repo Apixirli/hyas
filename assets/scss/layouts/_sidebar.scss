@@ -14,11 +14,11 @@
 .navbar {
   display: block;
   padding: 0;
-  margin: 2rem 0 1rem;
+  margin: 1rem 0;
 }
 
 .navbar-text {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   padding: 0;
   font-size: 1rem;
 }
@@ -27,7 +27,14 @@
   color: $lightgray;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: $font-size-sm;
+}
+
+.navbar-text a:hover{
+  background: $accent;
+  color: $darkergray;
+  line-height: 0.75rem;
+  display: inline-block;
 }
 
 @include media-breakpoint-up(md) {

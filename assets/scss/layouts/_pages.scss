@@ -1,0 +1,52 @@
+.gallery {
+  margin-top: 1rem;
+}
+
+.grid {
+  height: 100%;
+  padding-bottom: $grid-gutter-width;
+}
+
+.thumb_card {
+  opacity: 1;
+  filter: brightness(75%);
+}
+
+.thumb_card:hover {
+  opacity: 0.1;
+  transition:: opacity .3s ease-in-out;
+}
+
+.thumb_card:hover .thumb_title{
+  z-index: 1;
+}
+
+.thumb_title {
+  pointer-events: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  z-index: -1;
+  position: absolute;
+  opacity: 100;
+}
+
+.thumb_title .text {
+  pointer-events: none;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+a .text {
+  color: $white;
+}
