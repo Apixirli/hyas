@@ -18,10 +18,15 @@ featured: true
 
 NANYANG TECHNOLOGICAL UNIVERSITY  
 Final Year Project  
+Arnold / Maya / Nuke / Houdini / Substance
 
-DIRECTOR / LEAD ANIMATOR: **CARRIE LEE**  
+SUPERVISOR: [**DAVIDE BENVENUTI**](https://blogs.ntu.edu.sg/adm-portfolio/2016/08/13/davide-benvenuti/)  
+DIRECTOR / LEAD ANIMATOR: [**CARRIE LEE**](https://currypot.wixsite.com/currypot)  
 TECHNICAL DIRECTOR / LIGHTER / COMPOSITOR : **ZAID SALIHIN**  
-MODELLING / FUR / ANIMATOR: **LOH YI HUI**  
+MODELLING / FUR / ANIMATOR: [**LOH YI HUI**](https://yihuiproz.wixsite.com/yihuiproz)
+
+**DESCRIPTION**:
+Final Year Project for my BA in Digital Animation (Character Animation) from Nanyang Technological University, School of Art, Design and Media. A cautionary tale against being the monster that you are afraid of. Responsible for layout, set dressing, pipeline tools, rigging, lighting, rendering and compositing.
 
 {{< img src="berry_cover.png" >}}
 {{< img src="berry_01.png" >}}
