@@ -10,9 +10,11 @@ categories: [""]
 
 Technically-inclined CG Generalist who enjoys solving stuff.
 
-Graduated from Nanyang Technological University, School of Art, Design & Media with a Bachelor of Fine Arts in Digital Animation (Character Animation). Extremely quick lifelong learner, embracer of the cutting edge, delver of the technical abyss.
+Graduated from Nanyang Technological University, School of Art, Design & Media with a Bachelor of Fine Arts in Digital Animation (Character Animation) and a semester abroad at the University of Hertfordshire, School of Creative Arts.
 
-Proficient in Autodesk Maya, SideFx Houdini, Substance Designer, Substance Painter, Blender, Unreal Engine, Agisoft Metashape, Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Nuke, Python, Git, Adobe Typescript.
+Proficient in Autodesk Maya, SideFx Houdini, Substance Designer, Unreal Engine, Arnold, Agisoft Metashape, Nuke, Python.  
+
+Familiar with Substance Painter, Blender, Git, Adobe Typescript.  
 
 Enjoys reading, hiking, getting frustrated, and sitting in the dark.  
 Also a ninja.
