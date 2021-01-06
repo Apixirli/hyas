@@ -27,15 +27,22 @@ UE4 / Megascans / Epic's Paragon Assets
 **DESCRIPTION**: Made in 4 days for an open position that was almost missed.
 
 <figure>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-01_cameramove_A.gif">
+  <video loop muted autoplay playsinline class="img-fluid">
+  <source src="images/ue-lighting-01_cameramove_A.webm" type="video/webm">
+  </video>
 </figure>
 
 <figure>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-01_cameramove_B.gif">
+  <video loop muted autoplay playsinline class="img-fluid">
+  <source src="images/ue-lighting-01_cameramove_B.webm" type="video/webm">
+  </video>
 </figure>
 
 <figure>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-01_progress.gif">
+  <video loop muted autoplay playsinline class="img-fluid">
+  <source src="images/ue-lighting-01_progress.webm" type="video/webm">
+  </video>
 </figure>
+
 
 {{< img src="ue-lighting-01_01.png">}}
