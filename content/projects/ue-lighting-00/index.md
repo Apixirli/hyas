@@ -27,9 +27,13 @@ UE4 / Megascans / Houdini / Substance
 **DESCRIPTION**: Also a personal Houdini procedural modelling exercise.
 
 <figure>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-00_cameramove.gif">
+  <video loop muted autoplay playsinline class="img-fluid">
+  <source src="images/ue-lighting-00_cameramove.webm" type="video/webm">
+  </video>
 </figure>
 
 <figure>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-00_progress.gif">
+  <video loop muted autoplay playsinline class="img-fluid">
+  <source src="images/ue-lighting-00_progress.webm" type="video/webm">
+  </video>
 </figure>
