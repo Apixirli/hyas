@@ -24,4 +24,12 @@ UE4 / Megascans / Houdini / Substance
 **Location**: Desert Canyon  
 **Weather**: Clear/ Sunny
 
-Also a personal Houdini procedural modelling exercise.
+**DESCRIPTION**: Also a personal Houdini procedural modelling exercise.
+
+<figure>
+  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-00_cameramove.gif">
+</figure>
+
+<figure>
+  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="images/ue-lighting-00_progress.gif">
+</figure>
