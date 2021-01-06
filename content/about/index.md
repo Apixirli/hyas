@@ -10,7 +10,7 @@ categories: [""]
 
 Technically-inclined CG Generalist who enjoys solving stuff.
 
-Graduated from Nanyang Technological University, School of Art, Design & Media with a Bachelor of Fine Arts in Digital Animation (Character Animation) and a semester abroad at the University of Hertfordshire, School of Creative Arts.
+Graduated from Nanyang Technological University, School of Art, Design & Media with a Bachelor of Fine Arts in Digital Animation (Character Animation) and a semester at the University of Hertfordshire, School of Creative Arts.
 
 Proficient in Autodesk Maya, SideFx Houdini, Substance Designer, Unreal Engine, Arnold, Agisoft Metashape, Nuke, Python.  
 
@@ -21,5 +21,4 @@ Also a ninja.
 
 Singapore
 
-[Image of email address]  
-[Image of phone number]]
+zaidsalihin [at] gmail.com
