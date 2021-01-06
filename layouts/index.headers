@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy:  default-src 'none'; font-src 'self' https://fonts.gstatic.com; frame-src https://www.youtube.com; img-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/
+  Content-Security-Policy:  default-src 'none'; font-src 'self' https://fonts.gstatic.com; frame-src https://www.youtube.com; img-src 'self'; media-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
