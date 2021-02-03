@@ -24,7 +24,7 @@ UE4 / Megascans / Epic's Paragon Assets
 **Location**: Northern High Altitude Mountains  
 **Weather**: Cold/ Mist  
 
-**DESCRIPTION**: Made in 4 days for an open position that was almost missed.
+**DESCRIPTION**: Quick lighting exercise of a adventurer journeying to a isolated fortress in the northern mountains.
 
 <figure>
   <video loop muted autoplay playsinline class="img-fluid">

@@ -24,7 +24,7 @@ UE4 / Megascans / Houdini / Substance
 **Location**: Desert Canyon  
 **Weather**: Clear/ Sunny
 
-**DESCRIPTION**: Also a personal Houdini procedural modelling exercise.
+**DESCRIPTION**: Quick lighting exercise of a spacecraft just landed in a desert canyon. Also a personal Houdini procedural modelling exercise.
 
 <figure>
   <video loop muted autoplay playsinline class="img-fluid">
